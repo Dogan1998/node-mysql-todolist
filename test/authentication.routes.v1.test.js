@@ -7,6 +7,7 @@ process.env.NODE_ENV = 'test';
 process.env.APP_USERNAME = 'username';
 process.env.APP_PASSWORD = 'password';
 
+var tekst;
 var chai = require('chai');
 var chaiHttp = require('chai-http');
 var server = require('../server');
